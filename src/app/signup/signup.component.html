@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>SignUp</h1>
+                    <h4>Dear student seems that you're new to our class. Please create your account</h4>
+                </div>
+                <form>
+                    <form [formGroup]='signupForm' (ngSubmit)="signUp()" class="form-box">
+                        <div class="mb-3">
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Group</label>
+                                <input formControlName="Group" type="text" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Full name</label>
+                                <input formControlName="fullname" type="text" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-3">SignUp </button>
+                    </form>
+                    <a style="color: #fff; margin-top: 10px" routerLink="/login">Already registred? click to Log in</a>
+                </form>
+        </div>
+        </div>
+    </div>
+</div>

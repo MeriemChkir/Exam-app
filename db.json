@@ -1,0 +1,93 @@
+{
+  "students": [
+    {
+      "group": "",
+      "fullname": "json-server",
+      "email": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "group": "",
+      "fullname": "Meriem",
+      "email": "chkirmeriem619@gmail.com",
+      "password": "Meriem5354",
+      "id": 2
+    },
+    {
+      "group": "",
+      "fullname": "Meriem",
+      "email": "chkirmeriem619@gmail.com",
+      "password": "1254",
+      "id": 3
+    },
+    {
+      "group": "",
+      "fullname": "anas",
+      "email": "anas@gmail.com",
+      "password": "1254",
+      "id": 4
+    },
+    {
+      "group": "",
+      "fullname": "Ahmed",
+      "email": "ahmed@gmail.com",
+      "password": "1254",
+      "id": 5
+    },
+    {
+      "fullname": "firas halouani",
+      "email": "firas@gmail.com",
+      "password": "1254",
+      "group": "",
+      "id": 6
+    },
+    {
+      "fullname": "firas halouani",
+      "email": "firas@gmail.com",
+      "password": "1254",
+      "group": "",
+      "id": 7
+    },
+    {
+      "fullname": "firas halouani",
+      "email": "firas@gmail.com",
+      "password": "1254",
+      "group": "",
+      "id": 8
+    },
+    {
+      "fullname": "xyz",
+      "email": "xyz@gmail.com",
+      "password": "123",
+      "group": "",
+      "id": 9
+    },
+    {
+      "fullname": "ons",
+      "email": "ons@gmail.cpom",
+      "password": "12546z",
+      "group": "",
+      "id": 10
+    },
+    {
+      "fullname": "KDLKS",
+      "email": "QSDQDQ@G",
+      "password": "1254",
+      "group": "",
+      "id": 11
+    }
+  ],
+  "posts": [],
+  "teacher": [
+    {
+      "fullname": "admin",
+      "email": "admin@gmail.com",
+      "password": "5354",
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

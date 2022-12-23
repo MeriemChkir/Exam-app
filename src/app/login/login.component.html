@@ -1,0 +1,93 @@
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Login</h1>
+                    <h4>Dear student seems that you're new to our class. Please create your account</h4>
+                </div>
+                <form>
+                    <form form [formGroup]="loginform">
+                        <div class="mb-3">
+                            <div class="mb-3">
+                                <div class="form-check form-check-inline" (change)="getRole($event)" formControlName="type">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Student</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Teacher</label>
+                                  </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-3">Login </button>
+                    </form>
+                    <a style="color: #fff; margin-top: 10px" routerLink="/signup">You are new ? click here and create your account</a>
+                </form>
+        </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Login</h1>
+                    <h4>Dear student seems that you're new to our class. Please create your account</h4>
+                </div>
+                <form>
+                    <form form [formGroup]="login" (ngSubmit)="logindata(login)" class="form-box">
+                        <div class="mb-3">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <select class="form-select mb-4" aria-label="Default select example">
+                                <option selected>Role</option>
+                                <option value="1" routerLink="/welcome">Teacher</option>
+                                <option value="2">Student</option>
+                              </select>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-3">Login </button>
+                    </form>
+                    <a style="color: #fff; margin-top: 10px" routerLink="/signup">You are new ? click here and create your account</a>
+                </form>
+        </div>
+        </div>
+    </div>
+</div>
